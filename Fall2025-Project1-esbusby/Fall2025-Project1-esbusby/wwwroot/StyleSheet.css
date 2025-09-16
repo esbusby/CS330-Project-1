@@ -1,0 +1,73 @@
+﻿html, body {
+    background-color: #F9EFE3
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered > * {
+    margin-top: 30px;
+
+}
+
+/*Used AI for some design input*/
+#Title {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.3);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#CoverArt {
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15%;
+}
+
+#Rating {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#IMDBPage {
+    display: block;
+    margin-top: 5px;
+}
+
+#Trailer {
+    margin-top: 30px
+}
+
+#Summary {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#Actors {
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    color: black;
+    /* Core layout */
+    list-style-position: outside;
+    padding-left: 1.2em;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+
+.style-line {
+    width: 1200px;
+    background-color: black;
+    height: 2px;
+    border: none;
+}
